@@ -21,9 +21,6 @@ let keranjangBelanja = [];
                 
                 if (!isNaN(hargaBarang)) {
                     tambahBarang(namaBarang, hargaBarang);
-                    function tambahBarang(nama, harga) {
-                        keranjangBelanja.push({ nama: nama, harga: harga });
-                    }
                     alert(`Barang ${namaBarang} berhasil ditambahkan.`);
                 } else {
                     alert("Harga barang tidak valid!");
